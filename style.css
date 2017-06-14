@@ -1,0 +1,8 @@
+#title h1 {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+}
