@@ -1,4 +1,4 @@
-$red: #ad0000;
+/*$red: #ad0000;*/
 
 // Placeholder selectors
 %transition {
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: 'Open sans', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-weight: 300;
 }
 
@@ -22,7 +22,9 @@ body {
 }
 
 .navbar a {
-  font-size: 16px;
+  font-size: 20px;
+  font-variant: small-caps;
+  text-transform: lowercase;
 }
 
 .navbar .fa-external-link {
@@ -136,7 +138,7 @@ hr {
 .sec-main {
   position: relative;
   height: 560px;
-  background: url(https://source.unsplash.com/kVf7VRgg4p8/1920x1080) no-repeat center center;
+  background: url('bg-homepage.jpg') no-repeat center;
   background-size: cover;
 
   &:after {
