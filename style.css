@@ -5,6 +5,34 @@
   transition: all .25s;
 }
 
+a:hover,a:focus{text-decoration:none;}
+
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: white;
+  border-bottom: 5px solid white;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.text {
+  font-family: serif;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 8px;
+  color: white;
+  top: -48px;
+  position: relative;
+  text-align:center;
+}
+
+
+.svg-wrapper:hover .shape {
+stroke-width: 2px;
+stroke-dashoffset: 0;
+stroke-dasharray: 760;
+}
 /*=Typography=*/
 
 html {
@@ -50,18 +78,10 @@ p {
   line-height: 1.5;
 }
 
-.sec-about a {
-  text-decoration: underline;
-}
-
 .sec-services h2,
 .sec-services p {
   font-weight: 300;
   text-align: center;
-}
-
-.sec-testimonials p {
-  font-style: italic;
 }
 
 .sec-contact .btn {
@@ -171,7 +191,7 @@ hr {
   color: #000;
   &:hover,
   &:focus {
-    color: $red;
+    color: #79A8A9;
   }
 }
 
@@ -199,13 +219,11 @@ hr {
   margin: 1em 0;
 }
 
-/*Testimonials*/
-
-.sec-testimonials {
-  background: #f9f9f9;
-}
 
 /*Contact*/
+.sec-contact {
+  background: linear-gradient(black, white);
+}
 
 .sec-contact .form-control:focus {
   border-color: $red;
