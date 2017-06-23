@@ -126,11 +126,11 @@ hr {
 
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-  color: $red;
+  color: #79A8A9;
 }
 
 .navbar-default .navbar-nav>li>a:active {
-  color: darken($red, 5%);
+  color: darken(#79A8A9, 5%);
 }
 
 /*Main*/
