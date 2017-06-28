@@ -157,8 +157,8 @@ hr {
 
 .sec-main {
   position: relative;
-  height: 560px;
-  background: url('bg-homepage.jpg') no-repeat center;
+  height: 400px;
+  background-color: #3E9691;
   background-size: cover;
 
   &:after {
@@ -222,7 +222,7 @@ hr {
 
 /*Contact*/
 .sec-contact {
-  background: linear-gradient(black, white);
+  background: white;
 }
 
 .sec-contact .form-control:focus {
