@@ -172,6 +172,14 @@ hr {
   }
 }
 
+img {
+  height: 320px;
+  text-align: right;
+}
+
+.profil-pic {
+}
+
 .main-heading {
   position: absolute;
   top: 0;
