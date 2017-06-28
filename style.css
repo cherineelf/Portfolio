@@ -240,8 +240,8 @@ hr {
 
   &:hover,
   &:focus {
-    background: $red;
-    border-color: darken($red, 10%);
+    background: grey;
+    border-color: darken(grey, 10%);
   }
 }
 
@@ -270,7 +270,7 @@ footer {
 
   &:hover,
   &:focus {
-    color: $red;
+    color: grey;
   }
 }
 
