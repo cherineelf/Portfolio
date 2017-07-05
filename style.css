@@ -27,6 +27,7 @@ html, body {
   stroke-dashoffset: -474;
   stroke-width: 8px;
   stroke: white;
+
 }
 
 .text {
@@ -48,7 +49,7 @@ html, body {
   100% {
     stroke-dasharray: 760;
     stroke-dashoffset: 0;
-    stroke-width: 2px;
+    stroke-width: 3px;
   }
 }
 
