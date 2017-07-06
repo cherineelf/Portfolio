@@ -20,10 +20,10 @@
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
     <!-- Text link -->
-    <a href="#" class="navbar-wagon-item navbar-wagon-link">Home</a>
-    <a href="#" class="navbar-wagon-item navbar-wagon-link">About</a>
-    <a href="#" class="navbar-wagon-item navbar-wagon-link">Folio</a>
-    <a href="#" class="navbar-wagon-item navbar-wagon-link">Contact</a>
+    <a href="#home" class="navbar-wagon-item navbar-wagon-link">Home</a>
+    <a href="#about" class="navbar-wagon-item navbar-wagon-link">About</a>
+    <a href="#folio" class="navbar-wagon-item navbar-wagon-link">Folio</a>
+    <a href="#contact" class="navbar-wagon-item navbar-wagon-link">Contact</a>
 
     <!-- Button (call-to-action) -->
       <!--     <a href="" class="navbar-wagon-item navbar-wagon-button btn">Post stuff</a>-->
@@ -43,7 +43,7 @@
   </div>
 </div>
 <!-- HOME -->
-<section>
+<section id="home">
   <div class="container">
     <div class="intro">
       <span>Hi, I'm Cherine</span>
@@ -52,13 +52,37 @@
   </div>
 </section>
 <!-- ABOUT SECTION -->
-<section>
+<section id="about">
   <div class="container">
     <div class="about">
       <h1>About</h1>
       <hr />
       <p>Hi, my name is Cherine and I am a beginner developer based in Marseilles. I finished a 9-week bootcamp, but want to learn more and I am ready and motivated to take opporunities ! I have some experience with HTML5, CSS3, Bootstrap, Ruby on Rails, JS & Jquery. My other skills include WordPress, Photoshop, Indesign. I love nature, food and the small things life gives us. If you want to hire me or just to talk connect <a class="connect" href="#footer"></a>with me.</p>
     </div>
+  </div>
+</section>
+<!-- CONTACT SECTION -->
+<section id="contact">
+  <div class="container">
+    <h1>Get in Touch</h1>
+    <form>
+      <div class="field name-box">
+        <input type="text" id="name" placeholder="What's your name ?"/>
+        <label for="name">Name</label>
+        <span class="ss-icon">check</span>
+      </div>
+      <div class="field email-box">
+        <input type="text" id="email" placeholder="name@email.com"/>
+        <label for="email">Email</label>
+        <span class="ss-icon">check</span>
+      </div>
+      <div class="field message-box">
+        <input type="text" id="message" rows="4" placeholder="Your message..."/>
+        <label for="message">Message</label>
+        <span class="ss-icon">check</span>
+      </div>
+      <input class="button" type="submit" value="Send">
+    </form>
   </div>
 </section>
 </body>
