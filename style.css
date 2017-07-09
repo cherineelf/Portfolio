@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+/*Placeholder selectors*/
+%transition {
+  transition: all .25s;
+}
+
 /* Main class */
 .navbar-wagon {
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
@@ -93,7 +98,7 @@
 }
 /*BASE*/
 section {
-  padding:5em 0;
+  padding: 200px 0;
 }
 
 hr {
@@ -109,20 +114,25 @@ h1 {
   font-family: 'Kaushan Script', "Helvetica Neue", "Helvetica";
 }
 
-/*INTRO-HOME SECTION*/
-.intro-wrapper {
-  background: #5b86e5;
+/*INTRO HOME SECTION*/
+.intro {
+  background-image: url('bg-veggies.jpg'); /*#5b86e5*/
+  background-size: cover;
+  /*padding-right: 30px;*/
 }
 
 .title {
   font-size:35px;
   font-weight: bold;
+  position: absolute;
+  bottom: 10px;
 }
 .intro {
   text-align:right;
 }
-.intro > span {
+span {
   font-size:20px;
+  font-weight:300;
 }
 
 /*ABOUT SECTION*/
@@ -130,11 +140,21 @@ p {
   font-size: 15px;
   line-height: 1.5;
 }
+
 .about {
   text-align: center;
 }
-/*CONTACT SECTION*/
 
+.img-pic {
+  height: 320px;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+}
+/*CONTACT SECTION*/
+.contact-section .btn {
+  text-transform: uppercase;
+}
 /*FOOTER*/
 footer {
   padding: 3em 0;
@@ -148,14 +168,12 @@ footer {
 }
 .soc-media-ul a {
   display: block;
-  padding: 0.5em .65rem;
+  padding: 0.5em 1.65rem;
   font-size: 25px;
   color: black;
   text-decoration: none;
-
-  &:hover,
-  &:focus {
-    color: black
-  }
 }
 
+.soc-media-ul a:hover {
+  color: #dfe3ee;
+}
