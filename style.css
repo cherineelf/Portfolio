@@ -84,8 +84,11 @@ p {
 /*WORK*/
 .thumbnail-container {
   padding-bottom: 100px;
+  background-color: pink;
 }
+.thumb-unit {
 
+}
 /*FOOTER*/
 footer {
   padding: 3em 0;
