@@ -48,6 +48,7 @@ h1 span {
   display: inline-block;
   padding:0.2em 0.5em;
   border: 8px solid black;
+  margin-top: 50px;
 }
 
 .subtitle {
@@ -77,18 +78,110 @@ h3 {
 p {
   max-width: 650px;
   margin:50px auto;
-  padding: 0 15px;
   text-align: center;
 
 }
 /*WORK*/
-.thumbnail-container {
-  padding-bottom: 100px;
-  background-color: pink;
+.work-section {
+  background-color: #F3F3F3;
+  padding-bottom:100px;
+}
+.thumb-container {
+  max-width: 960px;
+  margin:0px auto;
 }
 .thumb-unit {
+  background-image: url("plant-thumb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25%;
+  height: 150px;
+  overflow: hidden;
+  color:white;
+  padding-top: 16%;
 
 }
+
+.thumb-overlay {
+  background-color:#2E3B3E;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+
+}
+.thumb-overlay strong {
+  padding: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+
+}
+.thumb-unit:hover .thumb-overlay {
+  height: 100%;
+  opacity:0.6;
+  color:white;
+}
+/*.work-section {
+  padding-bottom: 100px;
+  background-color: #F3F3F3;
+}
+.thumb-container {
+  max-width: 960px;
+  margin:0px auto;
+
+}
+.thumb-unit {
+  display:block;
+  float: left;
+  width: 25%;
+  height: 150px;
+  position: relative;
+  padding-top: 16%;
+  overflow: hidden;
+
+  background-image: url("plant-thumb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.thumb-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2E3B3E;
+  color:white;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.thumb-overlay strong {
+  display: block;
+  /*text-align: center;*/
+  padding: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.thumb-unit:hover .thumb-overlay {
+  height: 100%;
+  opacity:0.6;
+}
+
+/*SERVICE SECTION*/
+
+/*.sec-service i {
+  display: block;
+  margin:top;
+  width: 45px;
+}
+.sec-service h4 {
+  margin:1em 0;
+}
+.sec-service .fa-code {
+  width: 65px;
+}*/
 /*FOOTER*/
 footer {
   padding: 3em 0;
