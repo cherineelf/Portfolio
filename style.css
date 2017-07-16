@@ -1,10 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+
 /*NAVBAR & HEADER */
 .navbar {
   text-align:right;
 }
 header {
   height: 450px;
-  background: url('bg-veggies.jpg') center center;
+  background: url('bg-veggies.jpg');
   background-size: cover;
 }
 
@@ -36,7 +38,7 @@ h1 {
   text-align: center;
   font-size: 55px;
   font-weight: 600;
-  color: black;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-bottom: 20px;
@@ -47,7 +49,7 @@ h1 {
 h1 span {
   display: inline-block;
   padding:0.2em 0.5em;
-  border: 8px solid black;
+  border: 8px solid white;
   margin-top: 50px;
 }
 
@@ -56,21 +58,20 @@ h1 span {
   font-weight:700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color:black;
+  color:white;
   line-height: 1;
 }
 
 /*ABOUT SECTION*/
 h3 {
+  font-family: 'Kaushan Script', "Helvetica Neue", "Helvetica";
   text-align: center;
-  color: rgb(251,174,21);
-  font-size: 17px;
-  font-variant: small-caps;
-  text-transform: uppercase;
+  color: black;
+  font-size: 25px;
   padding: 100px 30px;
 }
 
-.profil-pic {
+.profile-pic {
   height: 250px;
   width: 250px;
   border-radius: 50%;
@@ -80,6 +81,15 @@ p {
   margin:50px auto;
   text-align: center;
 
+}
+.connect {
+  color:black;
+  text-decoration: none;
+}
+.connect:hover {
+  color:black;
+  text-decoration: none;
+  font-weight: 500;
 }
 /*WORK*/
 .work-section {
@@ -207,3 +217,5 @@ footer {
 .soc-media-ul a:hover {
   color: #dfe3ee;
 }
+
+
