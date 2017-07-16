@@ -58,7 +58,7 @@ h1 span {
   font-weight:700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color:white;
+  color:black;
   line-height: 1;
 }
 
@@ -192,12 +192,34 @@ p {
 .sec-service .fa-code {
   width: 65px;
 }*/
+
+/*CONTACT*/
+#contact {
+  background-color: #ecf0f3;
+}
+
+.soc-media-ul {
+  max-width: 700px;
+  margin:0 auto 50px;
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  display: block;
+  font-size:28px;
+  color:black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
 /*FOOTER*/
 footer {
   padding: 3em 0;
 }
 
-.soc-media-ul {
+/*.soc-media-ul {
   display: flex;
   justify-content: center;
 }
@@ -216,6 +238,6 @@ footer {
 
 .soc-media-ul a:hover {
   color: #dfe3ee;
-}
+}*/
 
 
