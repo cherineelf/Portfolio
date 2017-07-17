@@ -169,15 +169,15 @@ p {
 .thumb-overlay strong {
   display: block;
   /*text-align: center;*/
-  padding: 20px;
+/*  padding: 20px;
   font-weight: 300;
   text-transform: uppercase;
-}
+}*/
 
-.thumb-unit:hover .thumb-overlay {
+/*.thumb-unit:hover .thumb-overlay {
   height: 100%;
   opacity:0.6;
-}
+}*/
 
 /*SERVICE SECTION*/
 
@@ -196,6 +196,7 @@ p {
 /*CONTACT*/
 #contact {
   background-color: #ecf0f3;
+  text-align: center;
 }
 
 .soc-media-ul {
@@ -204,15 +205,39 @@ p {
   display: flex;
   justify-content: space-around;
 }
-a {
+.soc-media-ul a {
   display: block;
   font-size:28px;
   color:black;
 }
 
-a:hover {
+.soc-media-ul a:hover {
   text-decoration: none;
   color: black;
+  transform: scale(1.3);
+}
+
+.bar {
+  width: 250px;
+  height: 0;
+  border-top: 4px solid black;
+  margin: 0 auto 70px;
+}
+.link-mail {
+  margin-bottom: 30px;
+}
+
+.link-mail a{
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1;
+  color:black;
+}
+.link-mail a:hover {
+  color: black;
+  text-decoration: none;
+  transform: scale(1.3);
+
 }
 /*FOOTER*/
 footer {
