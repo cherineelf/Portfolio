@@ -213,7 +213,7 @@ p {
 
 .soc-media-ul a:hover {
   text-decoration: none;
-  color: black;
+  color: #295f48;
   transform: scale(1.3);
 }
 
@@ -221,10 +221,10 @@ p {
   width: 250px;
   height: 0;
   border-top: 4px solid black;
-  margin: 0 auto 70px;
+  margin: 70px auto 65px;
 }
 .link-mail {
-  margin-bottom: 30px;
+  padding-bottom: 100px;
 }
 
 .link-mail a{
@@ -236,12 +236,11 @@ p {
 .link-mail a:hover {
   color: black;
   text-decoration: none;
-  transform: scale(1.3);
 
 }
 /*FOOTER*/
 footer {
-  padding: 3em 0;
+  padding: 10px 0;
 }
 
 /*.soc-media-ul {
