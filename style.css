@@ -96,11 +96,28 @@ p {
   background-color: #F3F3F3;
   padding-bottom:100px;
 }
+.thumbnail {
+  position: relative;
+  overflow: hidden;
+}
+ .caption {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background:rgba(66, 139, 202, 0.75);
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+  /*display: none;*/
+  text-align: center;
+  color: white !important;
+  z-index: 2;
+ }
 /*.thumb-container {
   max-width: 960px;
   margin:0px auto;
 }*/
-.thumb-unit {
+/*.thumb-unit {
   background-image: url("plant-thumb.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -129,7 +146,7 @@ p {
   height: 100%;
   opacity:0.6;
   color:white;
-}
+}*/
 /*.work-section {
   padding-bottom: 100px;
   background-color: #F3F3F3;
@@ -177,20 +194,6 @@ p {
 /*.thumb-unit:hover .thumb-overlay {
   height: 100%;
   opacity:0.6;
-}*/
-
-/*SERVICE SECTION*/
-
-/*.sec-service i {
-  display: block;
-  margin:top;
-  width: 45px;
-}
-.sec-service h4 {
-  margin:1em 0;
-}
-.sec-service .fa-code {
-  width: 65px;
 }*/
 
 /*CONTACT*/
@@ -243,25 +246,5 @@ footer {
   padding: 10px 0;
 }
 
-/*.soc-media-ul {
-  display: flex;
-  justify-content: center;
-}
-
-.soc-media-ul li:not(:first-child) a {
-  margin-left: 1em;
-}
-
-.soc-media-ul a {
-  display: block;
-  padding: 0.5em 1.65rem;
-  font-size: 25px;
-  color: black;
-  text-decoration: none;
-}
-
-.soc-media-ul a:hover {
-  color: #dfe3ee;
-}*/
 
 
