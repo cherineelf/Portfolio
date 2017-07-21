@@ -70,7 +70,9 @@
         <div class="thumbnail">
           <div class="caption">
             <h4>Titre Projet</h4>
-            <a href="www.asanasano.com" class="btn btn-default">Have a look</a>
+            <p>short thumbnail description</p>
+            <p><a href="" class="label label-danger" rel="tooltip" title="Zoom">Zoom</a>
+            <a href="" class="label label-default" rel="tooltip" title="Download now">Download</a></p>
           </div>
           <img src="plant-thumb.jpg" alt="">
         </div>
@@ -98,24 +100,6 @@
         </div>
       </div>
     </div>
-      <!-- <div class="col-xs-12 col-sm-4 col-md-4">
-        <div class="figcaption">
-          <a href="#" class="thumbnail effect-lily">
-          <img src="plant-thumb.jpg" alt="">
-        </a>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-4 col-md-4">
-        <a href="#" class="thumbnail">
-          <img src="plant-thumb.jpg" alt="">
-        </a>
-      </div>
-      <div class="col-xs-12 col-sm-4 col-md-4">
-        <a href="#" class="thumbnail">
-          <img src="plant-thumb.jpg" alt="">
-
-        </a>
-      </div> -->
     </div>
   </div>
 </section>
@@ -202,19 +186,7 @@
     <p class="copyright">&copy; 2017 - C.E</p>
   </div>
 </footer>
-      <script type="text/javascript">
-    $( document ).ready(function() {
-    $("[rel='tooltip']").tooltip();
-
-    $('.thumbnail').hover(
-        function(){
-            $(this).find('.caption').slideDown(250); //.fadeIn(250)
-        },
-        function(){
-            $(this).find('.caption').slideUp(250); //.fadeOut(205)
-        }
-    );
-});
-  </script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
