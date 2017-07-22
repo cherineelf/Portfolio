@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("[rel='tooltip']").tooltip();
+  // $("[rel='tooltip']").tooltip();
 
     $('.thumbnail').hover(
       function(){
