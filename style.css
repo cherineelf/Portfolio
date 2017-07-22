@@ -118,6 +118,13 @@ p {
   font-weight: 300;
   text-transform: uppercase;
  }
+
+ .caption p {
+  text-align:center;
+  font-size: 14px;
+  margin-top: 0;
+ }
+
 /*.thumb-container {
   max-width: 960px;
   margin:0px auto;
