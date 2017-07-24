@@ -83,13 +83,29 @@ p {
 
 }
 .connect {
-  color:black;
+  color:#295f48;
   text-decoration: none;
 }
 .connect:hover {
-  color:black;
+  color:#295f48;
   text-decoration: none;
   font-weight: 500;
+}
+
+.icon-about {
+  width: 75px;
+  height: 75px;
+}
+
+.iconjs-about {
+  width: 95px;
+  height: 95px;
+}
+
+.iconrby-about {
+
+  width: 100px;
+  height: 75px;
 }
 /*WORK*/
 .work-section {
@@ -124,89 +140,6 @@ p {
   font-size: 14px;
   margin-top: 0;
  }
-
-/*.thumb-container {
-  max-width: 960px;
-  margin:0px auto;
-}*/
-/*.thumb-unit {
-  background-image: url("plant-thumb.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 25%;
-  height: 150px;
-  overflow: hidden;
-  color:white;
-  padding-top: 16%;
-
-}
-
-.thumb-overlay {
-  background-color:#2E3B3E;
-  width: 100%;
-  height: 0;
-  transition: 0.5s ease;
-
-}
-.thumb-overlay strong {
-  padding: 20px;
-  font-weight: 300;
-  text-transform: uppercase;
-
-}
-.thumb-unit:hover .thumb-overlay {
-  height: 100%;
-  opacity:0.6;
-  color:white;
-}*/
-/*.work-section {
-  padding-bottom: 100px;
-  background-color: #F3F3F3;
-}
-.thumb-container {
-  max-width: 960px;
-  margin:0px auto;
-
-}
-.thumb-unit {
-  display:block;
-  float: left;
-  width: 25%;
-  height: 150px;
-  position: relative;
-  padding-top: 16%;
-  overflow: hidden;
-
-  background-image: url("plant-thumb.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.thumb-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #2E3B3E;
-  color:white;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
-}
-
-.thumb-overlay strong {
-  display: block;
-  /*text-align: center;*/
-/*  padding: 20px;
-  font-weight: 300;
-  text-transform: uppercase;
-}*/
-
-/*.thumb-unit:hover .thumb-overlay {
-  height: 100%;
-  opacity:0.6;
-}*/
 
 /*CONTACT*/
 #contact {
@@ -256,6 +189,8 @@ p {
 /*FOOTER*/
 footer {
   padding: 10px 0;
+  background-image: url('bg-veggies2.jpg');
+  background-size: cover;
 }
 
 
