@@ -56,6 +56,7 @@ h1 span {
 .subtitle {
   text-align: center;
   font-weight:700;
+  font-size:17px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color:black;
@@ -71,6 +72,10 @@ h3 {
   padding: 100px 30px;
 }
 
+.icon-about-row {
+  padding-bottom: 35px;
+  padding-top: 35px;
+}
 .profile-pic {
   height: 250px;
   width: 250px;
@@ -103,8 +108,7 @@ p {
 }
 
 .iconrby-about {
-
-  width: 100px;
+  width: 75px;
   height: 75px;
 }
 /*WORK*/
@@ -140,6 +144,11 @@ p {
   font-size: 14px;
   margin-top: 0;
  }
+
+/*SERVICES*/
+.icon-service {
+  color:#295f48;
+}
 
 /*CONTACT*/
 #contact {
