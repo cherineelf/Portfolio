@@ -72,9 +72,8 @@ h3 {
   padding: 100px 30px;
 }
 
-.icon-about-row {
+#about {
   padding-bottom: 35px;
-  padding-top: 35px;
 }
 .profile-pic {
   height: 250px;
@@ -103,8 +102,9 @@ p {
 }
 
 .iconjs-about {
-  width: 95px;
-  height: 95px;
+    width: 95px;
+    height: 95px;
+    margin-top: -11px;
 }
 
 .iconrby-about {
@@ -146,9 +146,6 @@ p {
  }
 
 /*SERVICES*/
-.icon-service {
-  color:#295f48;
-}
 
 /*CONTACT*/
 #contact {

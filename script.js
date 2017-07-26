@@ -1,3 +1,4 @@
+// effect work project
 $(document).ready(function() {
 
     $('.thumbnail').hover(
