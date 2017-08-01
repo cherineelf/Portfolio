@@ -23,7 +23,7 @@ nav {
 }
 
 nav a{
-  font-family:'Shadows Into Light Two', 'Roboto', 'serif';
+  font-family:'Shadows Into Light Two', 'Roboto', 'Helvetica';
   display: inline-block;
   margin-left: 20px;
   color: black;
@@ -57,7 +57,7 @@ h1 span {
 }
 
 .subtitle {
-  font-family: 'Shadows Into Light Two';
+  font-family: 'Shadows Into Light Two', 'Roboto', 'Helvetica';
   text-align: center;
   font-weight:700;
   font-size:17px;
@@ -69,10 +69,11 @@ h1 span {
 
 /*ABOUT SECTION*/
 h3 {
-  font-family: 'Shadows Into Light Two', 'Helvetica' ;
+  font-family: 'Shadows Into Light Two', 'Roboto','Helvetica' ;
   text-align: center;
   color: black;
   font-size: 30px;
+  text-transform: uppercase;
   padding: 90px 30px;
 }
 
@@ -163,7 +164,8 @@ p {
 }
 /*CONTACT*/
 #contact {
-  background-color: #f3f3f5;
+  background-image: url('bg-veggies2.jpg');/*#f3f3f5*/
+  background-size: cover;
   text-align: center;
 }
 
@@ -206,12 +208,7 @@ p {
   text-decoration: none;
 
 }
-/*FOOTER*/
-footer {
-  padding: 10px 0;
-  background-image: url('bg-veggies2.jpg');
-  background-size: cover;
-}
+
 
 
 
