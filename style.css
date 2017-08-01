@@ -1,0 +1,214 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt|Shadows+Into+Light+Two');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/*NAVBAR & HEADER */
+.navbar {
+  text-align:right;
+}
+header {
+  height: 450px;
+  background: url('bg-veggies.jpg');
+  background-size: cover;
+}
+
+.logo {
+  float: left;
+  margin:10px 0 0 30px;
+}
+
+nav {
+  float: right;
+  margin:30px 30px 0 0;
+}
+
+nav a{
+  font-family:'Shadows Into Light Two', 'Roboto', 'Helvetica';
+  display: inline-block;
+  margin-left: 20px;
+  color: black;
+  font-size:14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 20px;
+  clear: both;
+  padding-top: 100px;
+}
+
+h1 span {
+  display: inline-block;
+  padding:0.2em 0.5em;
+  border: 8px solid white;
+  margin-top: 50px;
+}
+
+.subtitle {
+  font-family: 'Shadows Into Light Two', 'Roboto', 'Helvetica';
+  text-align: center;
+  font-weight:700;
+  font-size:17px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color:black;
+  line-height: 1;
+}
+
+/*ABOUT SECTION*/
+h3 {
+  font-family: 'Shadows Into Light Two', 'Roboto','Helvetica' ;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 90px 30px;
+}
+
+#about {
+  padding-bottom: 90px;
+}
+.profile-pic {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+p {
+  max-width: 650px;
+  margin:50px auto;
+  text-align: center;
+
+}
+.connect {
+  color:#295f48;
+  text-decoration: none;
+}
+.connect:hover {
+  color:#295f48;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.icon-about {
+  width: 75px;
+  height: 75px;
+}
+
+.iconjs-about {
+    width: 95px;
+    height: 95px;
+    margin-top: -11px;
+}
+
+.iconrby-about {
+  width: 75px;
+  height: 75px;
+}
+/*WORK*/
+#work {
+  padding-bottom: 90px;
+
+}
+.work-section {
+  background-color: #f3f3f5;
+}
+.thumbnail {
+  position: relative;
+  overflow: hidden;
+}
+ .caption {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background:rgba(76,76,76, 0.6);
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+  display: none;
+  text-align: center;
+  color: white !important;
+  z-index: 2;
+ }
+
+ .caption h4 {
+  font-weight: 300;
+  text-transform: uppercase;
+ }
+
+ .caption p {
+  text-align:center;
+  font-size: 14px;
+  margin-top: 0;
+ }
+.btn-default {
+  background-color: white;
+  border-radius: 2px;
+  border:none;
+}
+
+/*SERVICES*/
+#service {
+  padding-bottom: 90px;
+}
+/*CONTACT*/
+#contact {
+  background-image: url('bg-veggies2.jpg');/*#f3f3f5*/
+  background-size: cover;
+  text-align: center;
+}
+
+.soc-media-ul {
+  max-width: 700px;
+  margin:0 auto 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.soc-media-ul a {
+  display: block;
+  font-size:28px;
+  color:black;
+}
+
+.soc-media-ul a:hover {
+  text-decoration: none;
+  color: #295f48;
+  transform: scale(1.3);
+}
+
+.bar {
+  width: 250px;
+  height: 0;
+  border-top: 4px solid black;
+  margin: 70px auto 65px;
+}
+.link-mail {
+  padding-bottom: 100px;
+}
+
+.link-mail a{
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1;
+  color:black;
+}
+.link-mail a:hover {
+  color: black;
+  text-decoration: none;
+
+}
+
+
+
+
