@@ -158,10 +158,19 @@ p {
   font-size: 14px;
   margin-top: 0;
  }
-.btn-default {
+.btn {
   background-color: white;
+  font-size:13px;
+  font-weight: 200;
+  font-variant: small-caps;
+  text-transform: lowercase;
   border-radius: 2px;
   border:none;
+
+}
+.btn:hover {
+  background-color: white;
+  font-weight: 500;
 }
 
 /*SERVICES*/
