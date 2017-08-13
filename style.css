@@ -4,7 +4,12 @@
 
 /*NAVBAR & HEADER */
 .navbar {
+  background-color: rgba(0,0,0,0.2);
   text-align:right;
+  transition: all 0.2s ease-out;
+  padding:30px;
+  margin-top:0;
+  margin-right: 0;
 }
 header {
   height: 450px;
@@ -26,14 +31,14 @@ nav a{
   font-family:'Shadows Into Light Two', 'Roboto', 'Helvetica';
   display: inline-block;
   margin-left: 20px;
-  color: black;
+  color: white;
   font-size:14px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 nav a:hover {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -145,6 +150,7 @@ p {
  .caption h4 {
   font-weight: 300;
   text-transform: uppercase;
+  margin-top: 100px;
  }
 
  .caption p {
