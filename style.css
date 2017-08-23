@@ -4,7 +4,12 @@
 
 /*NAVBAR & HEADER */
 .navbar {
+  background-color: rgba(0,0,0,0.2);
   text-align:right;
+  transition: all 0.2s ease-out;
+  padding:30px;
+  margin-top:0;
+  margin-right: 0;
 }
 header {
   height: 450px;
@@ -14,9 +19,17 @@ header {
 
 .logo {
   float: left;
-  margin:10px 0 0 30px;
+  /*margin:10px 0 0 30px;*/
+  color: white;
+  font-size:20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family:'Shadows Into Light Two', 'Roboto', 'Helvetica';
 }
 
+.logo:hover {
+  text-shadow: 3px 0 3px gray;
+}
 nav {
   float: right;
   margin:30px 30px 0 0;
@@ -26,14 +39,14 @@ nav a{
   font-family:'Shadows Into Light Two', 'Roboto', 'Helvetica';
   display: inline-block;
   margin-left: 20px;
-  color: black;
+  color: white;
   font-size:14px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 nav a:hover {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -85,7 +98,7 @@ h3 {
   width: 250px;
   border-radius: 50%;
 }
-p {
+#about p {
   max-width: 650px;
   margin:50px auto;
   text-align: center;
@@ -127,6 +140,21 @@ p {
 .thumbnail {
   position: relative;
   overflow: hidden;
+  background:transparent;
+  border:none;
+}
+.thumbnail img {
+  height: 230px;
+}
+
+h4>a {
+  color:white;
+  text-decoration: none;
+}
+h4>a:hover {
+  color:#f4cd2b;
+  text-decoration: none;
+  font-weight: 400;
 }
  .caption {
   position: absolute;
@@ -143,19 +171,31 @@ p {
  }
 
  .caption h4 {
-  font-weight: 300;
+  font-weight: 500;
   text-transform: uppercase;
+  margin-top: 100px;
  }
 
  .caption p {
   text-align:center;
-  font-size: 14px;
+  font-size: 13px;
+  font-weight:200;
   margin-top: 0;
+
  }
-.btn-default {
+.btn {
   background-color: white;
+  font-size:13px;
+  font-weight: 200;
+  font-variant: small-caps;
+  text-transform: lowercase;
   border-radius: 2px;
   border:none;
+
+}
+.btn:hover {
+  background-color: white;
+  font-weight: 500;
 }
 
 /*SERVICES*/
@@ -208,7 +248,3 @@ p {
   text-decoration: none;
 
 }
-
-
-
-
