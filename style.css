@@ -15,6 +15,7 @@ header {
   height: 450px;
   background: url('bg-veggies.jpg');
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .logo {
@@ -78,6 +79,7 @@ h1 span {
   letter-spacing: 0.05em;
   color:black;
   line-height: 1;
+  background-color: rgba(255,255,255,0.6);
 }
 
 /*ABOUT SECTION*/
@@ -102,8 +104,8 @@ h3 {
   max-width: 650px;
   margin:50px auto;
   text-align: center;
-
 }
+
 .connect {
   color:#295f48;
   text-decoration: none;
@@ -206,6 +208,7 @@ h4>a:hover {
 #contact {
   background-image: url('bg-veggies2.jpg');/*#f3f3f5*/
   background-size: cover;
+  background-attachment: fixed;
   text-align: center;
 }
 
