@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 /*NAVBAR & HEADER */
+
 .navbar {
   background-color: rgba(0,0,0,0.2);
   text-align:right;
@@ -11,16 +12,15 @@
   margin-top:0;
   margin-right: 0;
 }
-header {
-  height: 450px;
+.wrapper {
   background: url('bg-veggies.jpg');
   background-size: cover;
   background-attachment: fixed;
+  min-height: 100vh;
 }
 
 .logo {
   float: left;
-  /*margin:10px 0 0 30px;*/
   color: white;
   font-size:20px;
   font-weight: 400;
