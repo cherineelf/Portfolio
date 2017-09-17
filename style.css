@@ -1,9 +1,48 @@
-@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+/*@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
 @import url('https://fonts.googleapis.com/css?family=Rock+Salt|Shadows+Into+Light+Two');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto');*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+body {
+  font-family:'Raleway', sans-serif;
+}
+.name {
+  margin-top: 250px;
+  font-size:50px;
+  letter-spacing: 5px;
+}
+
+p {
+  font-size:25px;
+}
+span {
+  text-transform: uppercase;
+  font-size:27px;
+  font-weight:100;
+}
+
+.job {
+  animation: fadeIn 7s;
+  color:#54A87D;
+  padding-bottom: 15px;
+  margin-top: -5px;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    color:black;
+  }
+
+  to {
+    opacity: 1;
+    color:#54A87D;
+  }
+}
 
 /*NAVBAR & HEADER */
-.navbar {
+
+/*.navbar {
   background-color: rgba(0,0,0,0.2);
   text-align:right;
   transition: all 0.2s ease-out;
@@ -11,15 +50,15 @@
   margin-top:0;
   margin-right: 0;
 }
-header {
-  height: 450px;
+.wrapper {
   background: url('bg-veggies.jpg');
   background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
 .logo {
   float: left;
-  /*margin:10px 0 0 30px;*/
   color: white;
   font-size:20px;
   font-weight: 400;
@@ -78,10 +117,11 @@ h1 span {
   letter-spacing: 0.05em;
   color:black;
   line-height: 1;
+  background-color: rgba(255,255,255,0.6);
 }
-
+*/
 /*ABOUT SECTION*/
-h3 {
+/*h3 {
   font-family: 'Shadows Into Light Two', 'Roboto','Helvetica' ;
   text-align: center;
   color: black;
@@ -102,8 +142,8 @@ h3 {
   max-width: 650px;
   margin:50px auto;
   text-align: center;
-
 }
+
 .connect {
   color:#295f48;
   text-decoration: none;
@@ -128,9 +168,9 @@ h3 {
 .iconrby-about {
   width: 75px;
   height: 75px;
-}
+}*/
 /*WORK*/
-#work {
+/*#work {
   padding-bottom: 90px;
 
 }
@@ -197,15 +237,16 @@ h4>a:hover {
   background-color: white;
   font-weight: 500;
 }
-
+*/
 /*SERVICES*/
-#service {
+/*#service {
   padding-bottom: 90px;
-}
+}*/
 /*CONTACT*/
-#contact {
-  background-image: url('bg-veggies2.jpg');/*#f3f3f5*/
+/*#contact {
+  background-image: url('bg-veggies2.jpg');
   background-size: cover;
+  background-attachment: fixed;
   text-align: center;
 }
 
@@ -248,3 +289,4 @@ h4>a:hover {
   text-decoration: none;
 
 }
+*/
