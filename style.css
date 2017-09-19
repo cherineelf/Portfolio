@@ -164,23 +164,43 @@ body {
   border:1px solid white;
 }
 
-.scroll-down {
+.scroll:before {
+  content:'';
+  width:30px;
+  height:30px;
+  border-left:2px solid white;
+  border-bottom:2px solid white;
+  transform: rotate(-45deg);
   position: absolute;
-  display: block;
+  top: 0;
   left: 50%;
-  text-align: center;
-  font-size: 20px;
-  z-index: 100;
-  width: 13px;
-  height: 13px;
-  border-bottom: 2px solid white;
-  border-right: 2px solid white;
-  transform: translate(-50%, 0) rotate(45deg);
-  animation: scrollDown 2s ease-in-out infinite;
+  display: block;
+  margin-top: 150px;
+  animation: scroll 0.5s infinite alternate;
 }
-@keyframes scrollDown {
+
+/*.scroll:after {
+  content:'';
+  width:20px;
+  height:20px;
+  border-left:2px solid white;
+  border-bottom:2px solid white;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 0;
+  left: 52;
+  display: block;
+  margin-top: 140px;
+  animation: scroll 0.5s infinite alternate;
+}*/
+
+@keyframes scroll {
   0% {top: 0; opacity: 1;}
     100% {top: 10px; opacity: 0.5;}
+}
+
+.scroll {
+  animation-name: scroll;
 }
 
 
