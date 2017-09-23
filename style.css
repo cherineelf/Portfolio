@@ -138,15 +138,15 @@ body {
 }
 .banner h1 {
   font-family: 'Mistral', 'sans-serif';
-  font-size: 65px;
+  font-size: 70px;
   font-weight: lighter;
-  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  text-shadow: 0px 1px rgba(3, 8, 6, 0.2);
 }
 .banner p {
   font-family: 'Raleway', 'sans-serif';
   font-size: 20px;
   font-weight: 400;
-  color: rgb(255, 255, 255);
+  color: white;
   opacity: 0.6;
   margin-bottom: 30px;
 }
@@ -166,10 +166,10 @@ body {
 
 .scroll:before {
   content:'';
-  width:30px;
-  height:30px;
-  border-left:2px solid white;
-  border-bottom:2px solid white;
+  width:17px;
+  height:17px;
+  border-left:1px solid white;
+  border-bottom:1px solid white;
   transform: rotate(-45deg);
   position: absolute;
   top: 0;
@@ -203,4 +203,26 @@ body {
   animation-name: scroll;
 }
 
+/*ABOUT*/
+.profile-pic {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+/*SERVICES*/
+h3 {
+  text-align:center;
+  color:black;
+  padding: 60px;
+  /*padding: 90px 30px;*/
+}
+
+.wrapper-services {
+  height: 90px;
+}
+
+.desc-service {
+  padding-bottom: 100px;
+}
 
