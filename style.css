@@ -235,6 +235,7 @@ body {
 /*SERVICES*/
 h3 {
   text-align:center;
+  letter-spacing: 8px;
   color:black;
   padding: 60px;
   margin:0;
@@ -260,13 +261,11 @@ h4 {
   font-weight: lighter;
 }
 /*CONTACT */
-h2 {
-  font-size:48px;
-  font-weight: 300;
-  /*letter-spacing: 8px;*/
-  line-height: 4;
+span {
+  color:#6FA3A9;
 }
-ul {
+
+/*ul {
   padding-bottom: 50px;
 }
 ul, li, a {
@@ -280,16 +279,20 @@ li {
 
 li:last-child {
   border-right-color:transparent;
+}*/
+.links-div-contact {
+  padding-bottom: 40px;
 }
-
 .a-contact {
   text-decoration: none;
   color:black;
-  font-size: 15px;
+/*  font-size: 15px;
   width: 84px;
   height: 64px;
-  line-height: 64px;
+  line-height: 64px;*/
   letter-spacing: 3px;
+  cursor: pointer;
+  padding: 15px;
 }
 
 .a-contact:hover {
@@ -297,4 +300,12 @@ li:last-child {
   color:white;
   background-color: #6FA3A9;
 }
+.a-contact:focus {
+  text-decoration: none;
+  color:black;
+}
 
+/*FOOTER*/
+#footer{
+  padding: 30px;
+}
