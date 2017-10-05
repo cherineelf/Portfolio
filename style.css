@@ -280,12 +280,6 @@ h4 {
 }
 /*CONTACT */
 
-.container-inner {
-/*  display: table-cell;
-  vertical-align: middle;
-  justify-content: center;*/
-}
-
 span {
   color: #b8cae7;
 }
@@ -328,35 +322,6 @@ li:last-child {
 .links-div-contact {
   padding-bottom: 60px;
 }
-
-/*.contact-wrapper {
-  padding-bottom: 30px;
-}
-span {
-  color:#b8cae7;
-}
-
-.links-div-contact {
-  padding-bottom: 60px;
-}
-.a-contact {
-  text-decoration: none;
-  color:black;
-  letter-spacing: 3px;
-  cursor: pointer;
-  padding: 25px;
-}
-
-.a-contact:hover {
-  text-decoration: none;
-  color:white;
-  background-color: #b8cae7;
-
-}
-.a-contact:focus {
-  text-decoration: none;
-  color:black;
-}*/
 
 /*FOOTER*/
 #footer{
