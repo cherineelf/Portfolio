@@ -84,7 +84,7 @@ body {
 
 /* Navbar link */
 .navbar-wagon-link {
-  color: rgba(255,255,255,0.6);
+  color: white;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -146,7 +146,7 @@ body {
   font-family: 'Raleway', 'sans-serif';
   font-size: 20px;
   font-weight: 400;
-  color: white;
+  color:white;
   opacity: 0.9;
   margin-bottom: 30px;
 }
@@ -242,63 +242,59 @@ h3 {
 }
 
 h4 {
-  font-variant: small-caps;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
+  color: white;
+}
+.banner-service {
+  background-attachment: fixed;
 }
 .wrapper-services {
-  height: 90px;
+  background-color: rgba(184,202,231,0.1);
+  background-size: cover;
 }
 
-.desc-service {
-  padding-bottom: 100px;
+.description-service i {
+  padding-bottom: 15px;
+  color: white;
 }
 
+.description-service p {
+  padding-bottom: 50px;
+  color: white;
+}
 .icon-service {
-  font-size: 27px;
-  color: #2f3065;
+  font-size: 40px;
+  color: white;
   font-weight: lighter;
+  text-shadow: 0px 1px rgba(3, 8, 6, 0.5);
+
 }
 /*CONTACT */
+.contact-wrapper {
+  padding-bottom: 30px;
+}
 span {
-  color:#6FA3A9;
+  color:#b8cae7;
 }
 
-/*ul {
-  padding-bottom: 50px;
-}
-ul, li, a {
-  display: inline-block;
-}
-
-li {
-  border-right: 1px solid black;
-  padding: 5px 7px;
-}
-
-li:last-child {
-  border-right-color:transparent;
-}*/
 .links-div-contact {
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 .a-contact {
   text-decoration: none;
   color:black;
-/*  font-size: 15px;
-  width: 84px;
-  height: 64px;
-  line-height: 64px;*/
   letter-spacing: 3px;
   cursor: pointer;
-  padding: 15px;
+  padding: 25px;
 }
 
 .a-contact:hover {
   text-decoration: none;
   color:white;
-  background-color: #6FA3A9;
+  background-color: #b8cae7;
+
 }
 .a-contact:focus {
   text-decoration: none;
@@ -307,5 +303,5 @@ li:last-child {
 
 /*FOOTER*/
 #footer{
-  padding: 30px;
+  padding: 5px;
 }
