@@ -1,130 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Asap+Condensed');
 
-
+/* --- COMPONENTS DESIGN --- */
+@import url('css/components/button.css');
+@import url('css/components/banner.css');
+@import url('css/components/navbar.css');
 
 body {
   font-family: 'Raleway', 'sans-serif';
 }
-/* --- NAVBAR & HEADER --- */
 
-/* Main navbar */
-.navbar-wagon {
-  transition: all 0.3s ease;
-  height: 70px;
-  padding: 0px 30px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  background-color: rgba(25,25,25,0.3);
-}
-
-/* User Avatar */
-.navbar-wagon .avatar {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
-}
-
-/* Right section */
-.navbar-wagon-right {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-/* Basic navbar item */
-.navbar-wagon-item {
-  cursor: pointer;
-  padding: 0 20px;
-}
-
-/* Navbar link */
-.navbar-wagon-link {
-  color: white;
-  font-size: 14px;
-  text-transform: uppercase;
-}
-.navbar-wagon-link:hover {
-  color: rgba(255,255,255,1);
-  font-weight: bold;
-  text-decoration: none;
-}
-
-/* Dropdown menu */
-.dropdown-toggle {
-  color: white;
-}
-.navbar-wagon-dropdown-menu {
-  margin-top: 15px;
-  box-shadow: 1px 1px 4px #E6E6E6;
-  border-color: #E6E6E6;
-}
-.navbar-wagon-dropdown-menu li > a {
-  transition: color 0.3s ease;
-  font-weight: lighter !important;
-  color: #999999 !important;
-  font-size: 15px !important;
-  line-height: 22px !important;
-  padding: 10px 20px;
-}
-.navbar-wagon-dropdown-menu li > a:hover {
-  background: transparent !important;
-  color: black !important;
-}
-.navbar-wagon-dropdown-menu:before {
-  content: ' ';
-  height: 10px;
-  width: 10px;
-  position: absolute;
-  right: 10px;
-  top: -6px;
-  background-color: white;
-  transform: rotate(45deg);
-  border-left: 1px solid #E6E6E6;
-  border-top: 1px solid #E6E6E6;
-}
-
-/*HOME*/
-.banner {
-  color: white;
-  text-align: center;
-  height: 100vh;
-  background-size: cover !important;
-  background-attachment: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.banner h1 {
-  font-family: 'Mistral', 'sans-serif';
-  font-size: 70px;
-  font-weight: lighter;
-  text-shadow: 0px 1px rgba(3, 8, 6, 0.2);
-}
-.banner p {
-  font-family: 'Raleway', 'sans-serif';
-  font-size: 20px;
-  font-weight: 400;
-  color:white;
-  opacity: 0.9;
-  margin-bottom: 30px;
-}
-.btn {
-  font-weight: 400;
-  font-family: 'Raleway', 'sans-serif';
-}
-.btn-primary  {
-  background-color: rgba(25,25,25,0.4);
-  border: 1px solid white;
-  border-radius: 1px;
-}
-.btn-primary:hover {
-  background-color: rgba(25,25,25,0.4);
-  border:1px solid white;
-}
-
-/* --- ABOUT --- */
+/* --- ABOUT SECTION--- */
 .profile-pic {
   height: 200px;
   width: 200px;
@@ -158,7 +44,7 @@ body {
   padding-bottom: 50px;
 }
 
-/* --- SERVICES --- */
+/* --- SERVICES SECTION--- */
 h3 {
   text-align:center;
   letter-spacing: 8px;
@@ -194,16 +80,17 @@ h4 {
   color: white;
   text-shadow: 0px 1px rgba(3, 8, 6, 0.5);
 }
+/* --- PROJECT SECTION--- */
 
-/* --- CONTACT --- */
+/* --- CONTACT SECTION--- */
 
 span {
   color: #b8cae7;
 }
 
-nav {
+/*nav {
   text-align: center;
-}
+}*/
 
 ul, li, a {
   display: inline-block;
@@ -240,7 +127,7 @@ li:last-child {
   padding-bottom: 60px;
 }
 
-/* --- FOOTER --- */
+/* --- FOOTER SECTION--- */
 #footer{
   padding: 5px;
 }
