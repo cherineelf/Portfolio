@@ -11,9 +11,6 @@ body {
   font-family: 'Raleway', 'sans-serif';
 }
 
-.hr-line {
-  width: 60%;
-}
 /* --- ABOUT SECTION--- */
 .profile-pic {
   height: 200px;
@@ -87,27 +84,14 @@ h4 {
 /* --- PROJECT SECTION--- */
 
 #project {
-  background-color: pink;
-  background-size:cover;
+  margin-bottom: 80px;
 }
 
-.flexbox {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-}
-.flex-item {
-  flex: 0 0 25%;
-}
 /* --- CONTACT SECTION--- */
 
 span {
   color: #b8cae7;
 }
-
-/*nav {
-  text-align: center;
-}*/
 
 ul, li, a {
   display: inline-block;

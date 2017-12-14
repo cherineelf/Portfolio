@@ -1,7 +1,6 @@
 /*Card - Project section*/
 
 .card {
-  /*text-shadow: 0 1px 3px rgba(0,0,0,0.6);*/
   background-size: cover !important;
   background-position: center;
   color: rgb(42,42,42);
@@ -17,43 +16,35 @@
   perspective: 50em;
   width: -webkit-fill-available;
 }
-
-.card-description h2 {
-  font-size: 24px;
-  font-variant: small-caps;
-  text-transform: lowercase;
-}
-.card-description p {
-  font-size: 14px;
-  opacity: 0.7;
-  font-weight: lighter;
-}
-/*.card-link {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  z-index: 2;
-  background: black;
-  opacity: 0;
-}*/
-
-/*Hover css effect*/
-
-.card * {
-  box-sizing:padding-box;
-  transition:all 0.2s ease-out;
-}
-
-
-.card .card-description {
+.card .card-description { /* texte qui apparait au hover */
   top:50%;
   left:20%;
   right:20%;
   position:absolute;
   opacity:0;
   z-index:1;
+}
+.card-description h2 {
+  font-size: 28px;
+  font-weight: 600;
+  font-variant: small-caps;
+  text-transform: lowercase;
+}
+.card-description p {
+  font-size: 16px;
+  opacity: 0.7;
+  font-weight: lighter;
+}
+.card-description span {
+  font-size: 12px;
+  opacity: 0.9;
+  font-weight: lighter;
+}
+/*Hover css effect*/
+
+.card * {
+  box-sizing:padding-box;
+  transition:all 0.2s ease-out;
 }
 
 .card:after {
@@ -92,5 +83,5 @@
 .card.hover:after {
   -webkit-transform: rotateX(0);
   transform: rotateX(0);
-  opacity: 0.9;
+  opacity: 1;
 }
