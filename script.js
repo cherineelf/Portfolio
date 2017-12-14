@@ -1,4 +1,4 @@
-// effect button banner
+// effect on button banner //
 
 $('.btn').hover(function(){
   $(this).html("Connect");
