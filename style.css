@@ -2,17 +2,84 @@
 @import url('https://fonts.googleapis.com/css?family=Asap+Condensed');
 
 /* --- COMPONENTS DESIGN --- */
-@import url('css/components/button.css');
+/*@import url('css/components/button.css');
 @import url('css/components/banner.css');
 @import url('css/components/navbar.css');
 @import url('css/components/card.css');
+*/
 
 body {
-  font-family: 'Raleway', 'sans-serif';
+  font-family:'Raleway', 'sans-serif';
 }
 
+.banner-content {
+  background-color: white;
+  padding:50px;
+  box-shadow: 1px 1px 4px 1px rgb(0,36,61);
+}
+
+.banner {
+  color: black;
+  text-align: center;
+  height: 100vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  animation-duration: 4s;
+  animation-name: fadeIn;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.banner h2 {
+  font-size: 35px;
+  letter-spacing: 3px;
+}
+
+@media(max-width: 531px){
+  .banner h1 {
+    font-size: 40px;
+  }
+}
+
+@media(max-width: 410px){
+  .banner h1 {
+    font-size: 34px;
+  }
+  .banner h2 {
+    font-size: 30px;
+  }
+}
+
+.banner p {
+  font-size: 18px;
+  font-weight: lighter;
+  color: royalblue;
+  opacity: 0.6;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+}
+
+.banner hr {
+  border: 1px solid black;
+  width:20px;
+  transform: rotate(90deg);
+}
 /* --- ABOUT SECTION--- */
-.profile-pic {
+/*.profile-pic {
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -43,10 +110,10 @@ body {
 }
 .icon-about-row {
   padding-bottom: 50px;
-}
+}*/
 
 /* --- SERVICES SECTION--- */
-h3 {
+/*h3 {
   text-align:center;
   letter-spacing: 8px;
   color:black;
@@ -80,16 +147,41 @@ h4 {
   font-size: 40px;
   color: white;
   text-shadow: 0px 1px rgba(3, 8, 6, 0.5);
-}
+}*/
 /* --- PROJECT SECTION--- */
 
-#project {
-  margin-bottom: 80px;
+/*#project {
+  padding:30px;
 }
 
+.wrapper-work > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead;
+    margin-top: 30px;
+}
+
+.wrapper-work > div > img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.wrapper-work {
+  display: grid;
+  grid-gap:5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-auto-rows: 75px;
+}
+
+.wrapper-work {
+  background-color: grey;
+  padding-bottom: 30px;
+}*/
 /* --- CONTACT SECTION--- */
 
-span {
+/*span {
   color: #b8cae7;
 }
 
@@ -127,8 +219,8 @@ li:last-child {
 .links-div-contact {
   padding-bottom: 60px;
 }
-
+*/
 /* --- FOOTER SECTION--- */
-#footer{
+/*#footer{
   padding: 5px;
-}
+}*/
