@@ -14,13 +14,133 @@
 </head>
 <body>
 
-<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('css/images/bg-pattern.jpg');">
-  <div class="banner-content">
-    <h1>Coming back soon</h1>
-    <h2>Cherine Elfadel</h2>
-    <hr>
+<nav class="navbar navbar-fixed-top">
+  <div>
+    <a href="#" class="navbar-cherine-brand">
+      <span class="logo">CherineElfadel</span>
+    </a>
+  </div>
+
+  <div>
+    <input type="checkbox" id="burger" class="burger">
+    <label for="burger" class="hamburger">
+      <span></span>
+    </label>
+    <div class="nav-right">
+      <a href="#about" class="nav-items">About</a>
+      <a href="#work" class="nav-items">Work</a>
+      <a href="#service" class="nav-items">Service</a>
+      <a href="#contact" class="nav-items">contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- main-page -->
+<div id="main-page" class="banner">
+<div class="container">
+  <div class="content wrapper-content border-2">
+    <h1>Cherine Elfadel</h1>
     <p>Front-End Developer</p>
   </div>
+</div>
+</div>
+<!-- main-page END -->
+
+<!-- about -->
+<div id="about" class="text-center">
+  <h3>about</h3>
+  <div class="container">
+    <p>Le Wagon Alumni</p>
+    <br>
+    <p>I enjoy learning new things (design&coding) and challenge myself. I design and develop experiences to make people's live simple.</p>
+    <br>
+    <p>I work with <span>HTML5/CSS3</span>, <span>Bootstrap</span>, <span>JavaScript(jQuery)</span> and <span>Responsive Design</span>. Knowledge of <span>Ruby On Rails</span>, <span>Wordpress</span>.</p>
+  </div>
+</div>
+<!-- about END -->
+
+<!-- work -->
+<div id="work">
+<h3>work</h3>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <div class="card" style="background-image: url('css/images/asanasano-capture.png');" onclick="">
+          <div class="card-category"></div>
+          <div class="card-description">
+            <h2>Asanasano</h2>
+            <p>Le Wagon - A 10-day team project <br> Worked on the first version / Front-End part</p>
+            <a href="https://www.asanasano.com" target="_blank" class="underline" >Have a look</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <div class="card" style="background-image: url('css/images/healthymars-capture.png');" onclick="">
+          <div class="card-category"></div>
+          <div class="card-description">
+            <h2>Healthy Mars</h2>
+            <p>Personal project - In progress</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- work END -->
+
+<!-- service -->
+<div id="service">
+<h3>service</h3>
+<div class="container">
+  <div class="service-content">
+    <h4>Clean code <i class="fa fa-code"></i></h4>
+    <p>Websites are written in valid and clean HTML5/CSS3 & JavaScript (jQuery)</p>
+  </div>
+  <div class="service-content">
+
+    <h4>Design <i class="fa fa-star"></i></h4>
+    <p>Websites are tailored to suit your needs and requirements</p>
+  </div>
+  <div class="service-content">
+    <h4>Responsive <i class="fa fa-mobile"></i></h4>
+    <p>Websites are responsive. They will look great on desktop, tablet and mobile</p>
+  </div>
+</div>
+
+</div>
+<!-- service END -->
+<div id="neon-div">
+  <p>yo</p>
+</div>
+<div class="clear"></div>
+<!-- contact -->
+<div id="contact">
+  <div class="container">
+    <div class="image-contact">
+      <span>contact</span>
+    </div>
+    <div class="contact-content">
+      <h4>Want to talk about a project ?</h4>
+      <p>Marseille, FR</p>
+      <p>cherine.elfadel@gmail.com</p>
+      <div class="contact-icon">
+        <ul>
+          <li><a href="https://twitter.com/cherineELF"><i class="fa fa-twitter icon-gradient"></i></a></li>
+          <li><a href="https://github.com/cherineelf"><i class="fa fa-github-alt"></a></i></li>
+          <li><a href="https://www.linkedin.com/in/cherineelfadel/"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- contact END -->
+
+<div class="icon-up">
+  <a href="#"><i class="fa fa-angle-double-up"></i></a>
+</div>
+
+<div class="copyright text-center">
+  <p>© 2018 Cherine Elfadel. All rights reserved.</p>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
