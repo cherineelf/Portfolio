@@ -1,26 +1,72 @@
-/*HOME*/
+/*main-page*/
+
 .banner {
-  color: white;
+  color: black;
   text-align: center;
   height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
-  background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .banner h1 {
-  font-family: 'Mistral', 'sans-serif';
-  font-size: 70px;
+  font-size: 85px;
   font-weight: lighter;
-  text-shadow: 0px 1px rgba(3, 8, 6, 0.2);
-}
-.banner p {
-  font-family: 'Raleway', 'sans-serif';
-  font-size: 20px;
-  font-weight: 400;
-  color:white;
-  opacity: 0.9;
-  margin-bottom: 30px;
+  font-family: arial;
+  font-variant: all-small-caps;
+  text-shadow: 1px 1px 1px;
+  background-image: -webkit-linear-gradient(30deg, aquamarine 100%, #fff 0%);
+background-image: -o-linear-gradient(30deg, aquamarine 100%, #fff 0%);
+background-image: linear-gradient(120deg, aquamarine 100%, #fff 0%);
+  background-repeat: no-repeat;
+  background-size: 88% 20px;
+  background-position: 37px 90%;
 }
 
+.banner p {
+  font-variant: all-small-caps;
+  letter-spacing: 3px;
+  font-size: 20px;
+  opacity: 0.7;
+}
+.wrapper-content {
+  background-color: white;
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+  padding:20px 0;
+}
+
+@media(max-width: 992px) {
+  .banner h1 {
+    font-size: 80px;
+    background-size: 100% 20px;
+    background-position: 0px 90%;
+  }
+}
+
+@media(max-width: 760px) {
+  .banner h1 {
+    font-size: 53px;
+    background-size: 100% 20px;
+    background-position: 0px 90%;
+  }
+}
+
+@media(max-width: 484px) {
+  .banner h1 {
+    font-size: 50px;
+   background-size: 100% 20px;
+    background-position: 0px 90%;
+  }
+}
+
+@media(max-width: 480px) {
+  .banner h1 {
+    font-size: 50px;
+    background-size: 71% 51px;
+    background-position: 36px 61%;
+  }
+}

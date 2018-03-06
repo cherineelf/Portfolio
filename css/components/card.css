@@ -1,87 +1,133 @@
-/*Card - Project section*/
+/*work*/
 
 .card {
-  background-size: cover !important;
-  background-position: center;
-  color: rgb(42,42,42);
+  color: black;
   position: relative;
-  height: 250px;
-  background-repeat: no-repeat;
-
-  position:relative;
   float: left;
   overflow: hidden;
-  margin:10px 1%;
+  margin: 10px 1%;
+  width: 100%;
   text-align: center;
-  perspective: 50em;
-  width: -webkit-fill-available;
+  height: 220px;
+  background-size: cover !important;
+  background-position: center;
+  box-shadow:0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+  cursor: pointer;
+  -webkit-filter:grayscale(100%);
 }
-.card .card-description { /* texte qui apparait au hover */
-  top:50%;
-  left:20%;
-  right:20%;
-  position:absolute;
-  opacity:0;
-  z-index:1;
-}
-.card-description h2 {
-  font-size: 28px;
-  font-weight: 600;
-  font-variant: small-caps;
-  text-transform: lowercase;
-}
-.card-description p {
-  font-size: 16px;
-  opacity: 0.7;
-  font-weight: lighter;
-}
-.card-description span {
-  font-size: 12px;
-  opacity: 0.9;
-  font-weight: lighter;
-}
-/*Hover css effect*/
-
-.card * {
-  box-sizing:padding-box;
-  transition:all 0.2s ease-out;
-}
-
 .card:after {
-  background-color:white;
-  position:absolute;
-  content:"";
-  display:block;
-  top: 20px;
-  left: 20px;
-  right: 20px;
-  bottom: 20px;
-  transition: all 0.4s ease-in-out;
-  transform: rotateX(-90deg);
-  transform-origin: 50% 50%;
-  opacity: 0.7;
-}
-
-.card .card-description a {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  background: white;
+  width: 100%;
+  height: 100%;
   position: absolute;
-  z-index: 1;
+  left: 0;
+  bottom: 0;
+  content: '';
+  opacity: 0.9;
+  -webkit-transform: skew(-45deg) scaleX(0);
+  transform: skew(-45deg) scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.card:hover {
+  -webkit-filter:grayscale(0%);
 }
 
-.card:hover .card-description{
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.card-description {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  opacity: 1;
+  z-index: 1;r;
+}
+
+.card-description a {
+  text-decoration:none;
+  color: inherit;
+  font-variant: all-small-caps;
+  font-size: 18px;
+}
+.card-description h2,
+.card-description p,
+.card-description a {
+  margin: 0;
+  width: 100%;
+  opacity: 0;
+}
+.card-description h2 {
+  padding: 0 30px;
+  display: inline-block;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.card-description p {
+  padding: 0 50px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.card:hover:after,
+.card.hover:after {
+  -webkit-transform: skew(-45deg) scaleX(1);
+  transform: skew(-45deg) scaleX(1);
+  transition: all 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.card:hover .card-description h2,
+.card.hover .card-description h2,
+.card:hover .card-description p,
+.card.hover .card-description p {
+  -webkit-transform: translate3d(0%, 0%, 0);
+  transform: translate3d(0%, 0%, 0);
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
-
-.card:hover:after,
-.card.hover:after {
-  -webkit-transform: rotateX(0);
-  transform: rotateX(0);
+.card:hover .card-description h2,
+.card.hover .card-description h2 {
   opacity: 1;
+}
+.card:hover .card-description p,
+.card.hover .card-description p {
+  opacity: 0.7;
+}
+.card:hover .card-description a,
+.card.hover .card-description a {
+  opacity: 1;
+}
+
+.underline {
+  background-image:linear-gradient(120deg,aquamarine 0%, #7acfb6 100%);
+  background-repeat:no-repeat;
+  background-size:100% 3px;
+  background-position:0 82%;
+  transition:background-size 0.25s ease-in;
+  padding: 0 10px;
+}
+.underline:hover {
+  background-size:100% 88%;
+}
+
+@media(max-width: 992px) {
+  .card2 {
+    margin-bottom: 20px;
+  }
+}
+
+@media(max-width: 760px) {
+  .card2 {
+    margin-bottom: 20px;
+  }
+}
+
+@media(max-width: 480px) {
+  .card2 {
+    margin-bottom: 20px;
+  }
 }
