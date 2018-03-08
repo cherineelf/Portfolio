@@ -34,6 +34,9 @@ body {
   .container{
     width: 350px;
   }
+  h3 {
+    font-size:90px;
+  }
 }
 
 ul {
