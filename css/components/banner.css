@@ -30,6 +30,7 @@ background-image: linear-gradient(120deg, aquamarine 100%, #fff 0%);
   font-size: 20px;
   opacity: 0.7;
 }
+
 .wrapper-content {
   background-color: white;
   width:70%;
@@ -38,6 +39,20 @@ background-image: linear-gradient(120deg, aquamarine 100%, #fff 0%);
   padding:20px 0;
 }
 
+.wrapper-content button {
+  color: #999999;
+  border: 1px solid #999999;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+}
+
+.wrapper-content button:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #999999;
+}
 @media(max-width: 992px) {
   .banner h1 {
     font-size: 80px;
@@ -68,4 +83,7 @@ background-image: linear-gradient(120deg, aquamarine 100%, #fff 0%);
     background-size: 71% 51px;
     background-position: 36px 61%;
   }
+  .banner p {
+  font-size: 17px;
+}
 }
