@@ -1,4 +1,4 @@
-//Changement de couleur de la navbar au scroll
+// Changing navbar color on scroll
 
 $(window).on('scroll', function(){
   if($(window).scrollTop()) {
@@ -7,4 +7,18 @@ $(window).on('scroll', function(){
   else {
     $('.navbar').removeClass('black');
   }
+});
+
+// Smooth scrolling effect
+
+$(document).ready(function(){
+  var scrolllink = $('.scroll');
+
+  // smooth scrolling
+  scrolllink.click(function(e){
+    e.preventDefault();
+    $('body,html').animate({
+      scrollTop: $(this.hash).offset().top
+    }, 1000);
+  })
 });
