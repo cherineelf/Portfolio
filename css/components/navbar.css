@@ -1,5 +1,20 @@
 /*NAVBAR*/
 
+/*effect when scroll START*/
+.navbar.black {
+  background-color: rgba(0,0,0,0.4);
+  transition: 1s;
+}
+.navbar.black .navbar-cherine-brand span{
+  color:#fff;
+}
+.navbar.black .nav-items {
+  color: #fff;
+  font-weight: 400;
+}
+/*effect when scroll END*/
+
+
 .navbar {
     display: flex;
     justify-content: space-between;

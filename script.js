@@ -1,8 +1,10 @@
-// effect on button banner //
+//Changement de couleur de la navbar au scroll
 
-// $('.btn').hover(function(){
-//   $(this).html("Connect");
-// }, function(){
-//   $(this).html("Hello");
-// });
-
+$(window).on('scroll', function(){
+  if($(window).scrollTop()) {
+    $('.navbar').addClass('black');
+  }
+  else {
+    $('.navbar').removeClass('black');
+  }
+});
