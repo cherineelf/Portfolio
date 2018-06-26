@@ -22,3 +22,10 @@ $(document).ready(function(){
     }, 1000);
   })
 });
+
+
+// button changing body color when clicked
+
+$('.btn').click(function () {
+  $('body').toggleClass('l-active');
+});

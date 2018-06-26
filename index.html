@@ -8,61 +8,71 @@
   <!-- Google result description-->
   <meta name="description" content="Cherine Elfadel, développeur web junior / front-end - Freelance basée à Marseille. Réalisation de vos sites web sur mesure et responsive.">
   <meta name="keywords" content="developpeur, frontend, web, freelance, marseille, cherine elfadel">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav class="navbar navbar-fixed-top">
-  <div>
-    <a href="#main-page" class="navbar-cherine-brand scroll">
-      <span class="logo">C.Elfadel</span>
-    </a>
-  </div>
-
-  <div>
-    <input type="checkbox" id="burger" class="burger">
-    <label for="burger" class="hamburger">
-      <span></span>
-    </label>
-    <div class="nav-right">
-      <a href="#about" class="nav-items scroll">About</a>
-      <a href="#work" class="nav-items scroll">Work</a>
-      <a href="#service" class="nav-items scroll">Service</a>
-      <a href="#contact" class="nav-items scroll">contact</a>
+<nav class="navbar navbar-light navbar-expand-lg fixed-top">
+    <a href="#" class="navbar-brand">cherine elfadel</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse mx-auto text-center" style="width: 200px;" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="navbar-item">
+                <a href="#about" class="nav-link scroll">About</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#work" class="nav-link scroll">Work</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#service" class="nav-link scroll">Services</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#contact" class="nav-link scroll">Contact</a>
+            </li>
+        </ul>
     </div>
-  </div>
 </nav>
 
 <!-- main-page -->
-<div id="main-page" class="banner">
-<div class="container">
-  <div class="content wrapper-content border-2">
-    <h1>Cherine Elfadel</h1>
-    <p>Front-End Developer</p>
-    <a href="index2.html"><button>FR</button></a>
+<div class="wrapper-main" ">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 offset-sm-2 text-right">
+        <h1>Creating simple and meaningful design for nice experiences</h1>
+      </div>
+      <div class="col-12 col-sm-4 text-center">
+        <div class="p-main">
+          <p class="btn btn-light scroll">Front End Developer</p>
+        </div>
+        <!-- <div class="btn btn-dark">Front End Developer</div> -->
+      </div>
+    </div>
   </div>
-</div>
 </div>
 <!-- main-page END -->
 
 <!-- about -->
-<div id="about" class="text-center">
-  <h3>about</h3>
+<section id="about" class="text-center">
+  <h2>about</h2>
   <div class="container">
-    <p>I work with <span>HTML5/CSS3</span>, <span>Bootstrap</span>, <span>JavaScript(jQuery)</span> and <span>Responsive Design</span>. Knowledge of <span>Ruby On Rails</span>, <span>Wordpress</span>.</p>
+    <p>I have a background in communication, languages, management and sustainability but my path crossed the coding universe and i decided to become <strong>Front End Developer</strong>.</p>
+    <p>I enjoy learning new things (Webdesign&coding) and challenge myself. I design and develop experiences to make people's live simple.</p>
     <br>
-    <p>I enjoy learning new things (design&coding) and challenge myself. I design and develop experiences to make people's live simple.</p>
+
+    <p>Always ready to improve my skills, I work with <span>HTML5/CSS3</span>, <span>Bootstrap</span>, <span>JavaScript(jQuery)</span> and <span>Responsive Design</span>. Knowledge of <span>Ruby On Rails</span>, <span>Wordpress</span>.</p>
     <br>
     <p>Le Wagon Alumni</p>
   </div>
-</div>
+</section>
 <!-- about END -->
 
 <!-- work -->
 <div id="work">
-<h3>work</h3>
+<h2>work</h2>
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-6">
@@ -91,7 +101,7 @@
 
 <!-- service -->
 <div id="service">
-<h3>service</h3>
+<h2>service</h2>
 <div class="container">
   <div class="service-content">
     <h4>Clean code <i class="fa fa-code"></i></h4>
@@ -145,7 +155,8 @@
   <p>© 2018 Cherine Elfadel. All rights reserved.</p>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="script.js"></script>
 </body>
 </html>

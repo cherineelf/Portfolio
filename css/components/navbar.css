@@ -1,181 +1,38 @@
-/*NAVBAR*/
+/* Navbar Design */
 
-/*effect when scroll START*/
+
+.nav-link {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.navbar-brand {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 19px;
+  color: rgba(75,72,69,0.7);
+  padding: 0 30px;
+  text-transform: capitalize;
+}
+
 .navbar.black {
-  background-color: rgba(0,0,0,0.4);
-  transition: 1s;
-}
-.navbar.black .navbar-cherine-brand span{
-  color:#fff;
-}
-.navbar.black .nav-items {
-  color: #fff;
-  font-weight: 400;
-}
-/*effect when scroll END*/
-
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
-    text-rendering: optimizeLegibility;
+  background-color: rgba(62,58,71,0.5);
+  color: white;
+  transition: 4s;
 }
 
-.nav-brand {
-    font-size: 1.90rem!important;
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(75,72,69,0.7);
+    transition: .6s;
 }
 
-.nav-right {
-    display: flex;
-}
+@media(max-width: 990px) {
 
-.nav-items {
-    display: inline-block;
-    padding: 20px 20px;
+  .navbar-collapse {
+    background-color: rgba(0,40,49,0.6);
+  }
+  .navbar-light .navbar-nav .nav-link {
     font-size: 15px;
-    text-decoration: none;
-    color: black;
-    font-weight: lighter;
-    text-transform: uppercase;
+    color: white;
+  }
 }
-
-.nav-items:hover {
-  color: black;
-  background-image: -webkit-linear-gradient(30deg, aquamarine 100%, #fff 0%);
-  background-image: -o-linear-gradient(30deg, aquamarine 100%, #fff 0%);
-  background-image: linear-gradient(120deg, aquamarine 100%, #fff 0%);
-  background-repeat: no-repeat;
-  background-size: 70% 8px;
-  background-position: 15px 60%;
-}
-.navbar-cherine-brand span {
-  font-size: 25px;
-  font-family: 'Cookie';
-  color: black;
-}
-
-a .logo {
-  text-decoration: none;
-}
-
-.hamburger {
-    display: none;
-    position: relative;
-    width: 36px;
-    height: 36px;
-
-    background-color: rgba(127, 255, 212,0.5);
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.hamburger>span {
-    display: block;
-    width: 22px;
-    height: 2px;
-
-    position: relative;
-    top:50%;
-    left:50%;
-
-    background-color:black;
-
-    transform:translateX(-50%) translateY(-50%);
- }
-
-.hamburger span::before,
-.hamburger span::after {
-  content:"";
-
-  position:absolute;
-  top:0;
-  left:0;
-
-  display:block;
-  width:22px;
-  height:2px;
-
-  transform:translateY(-6px);
-  transition:transform 0.5s;
-
-  background-color:black;
-}
-.hamburger span::after {
-  transform:translateY(6px);
-}
-
-.burger {
-    display: none;
-}
-
-.burger:checked~.nav-right {
-    transform: translateY(-10%);
-    opacity: 0.8;
-}
-
-@media(max-width: 720px) {
-    .nav-right {
-        z-index: -1;
-        position: absolute;
-        top: 85px;
-        left: 0;
-        width: 100%;
-        align-items: center;
-        flex-direction: column;
-        opacity: 0;
-        transform: translateY(-100%);
-        background: grey;
-        transition: all 0.5s ease;
-    }
-    .nav-items {
-      padding: 15px 20px;
-      font-size: 15px;
-      text-decoration: none;
-      color: white;
-      font-weight: 300;
-      text-transform: uppercase;
-    }
-    .nav-items:hover {
-      color: white;
-      background-image: -webkit-linear-gradient(30deg, aquamarine 100%, #fff 0%);
-      background-image: -o-linear-gradient(30deg, aquamarine 100%, #fff 0%);
-      background-image: linear-gradient(120deg, aquamarine 100%, #fff 0%);
-      background-repeat: no-repeat;
-      background-size: 70% 8px;
-      background-position: 15px 60%;
-}
-    .hamburger {
-      display: block;
-      width: 36px;
-      height: 36px;
-      margin-right: 0;
-      position:relative;
-      left: 130px;
-    }
-    .navbar-cherine-brand span {
-      display: none;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .nav-right {
-      top: 85px;
-      left: 235px;
-      width: 35%;
-      align-items: center;
-      flex-direction: column;
-      opacity: 0;
-      transform: translateY(-100%);
-      background: grey;
-      transition: all 0.5s ease;
-    }
-    .navbar-cherine-brand span {
-      display: none;
-    }
-    .hamburger {
-      left: 95px;
-    }
-}
-
