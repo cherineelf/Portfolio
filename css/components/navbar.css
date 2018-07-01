@@ -6,6 +6,10 @@
   text-transform: uppercase;
 }
 
+a.nav-link:hover {
+  color: white !important;
+}
+
 .navbar-brand {
   font-family: 'Libre Baskerville', serif;
   font-size: 19px;
@@ -19,6 +23,7 @@
   color: white;
   transition: 4s;
 }
+
 
 
 .navbar-light .navbar-nav .nav-link {

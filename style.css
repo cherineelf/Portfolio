@@ -9,6 +9,19 @@
 @import url('css/components/card.css');
 
 
+div.fade-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,139,139,0.4);
+  z-index: -1;
+  opacity: 0;
+}
+
+
+
 /*GENERAL DESIGN*/
 body {
   margin: 0;
@@ -60,13 +73,6 @@ a:hover, a:visited, a:link, a:active {
   text-decoration: none;
 }
 
-/*h3 {
-  font-size: 95px;
-  color:aquamarine;
-  font-variant: small-caps;
-  text-align:center;
-}*/
-
 h2 {
   font-family: 'Libre Baskerville', cursive;
   font-size: 60px;
@@ -90,8 +96,20 @@ section {
   padding: 60px 0;
 }
 
+#about h2 {
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+
+  background-image: linear-gradient(120deg, #A1DADD 100%, #fff 0%);
+  background-repeat: no-repeat;
+  background-size: 39% 32px;
+  background-position: 274px 0%;
+}
+
+
 #about p {
-  font-size: 37px;
+  font-size: 32px;
   padding: 0 50px;
   line-height: 40px;
   font-weight: lighter;
@@ -100,7 +118,7 @@ section {
   color:#ccc;
 }
 #about span:hover {
-  color:aquamarine;
+  color:cadetblue;
 }
 #about .container {
   display: flex;
@@ -213,13 +231,21 @@ section {
 
 /*DIV IMAGE BEFORE CONTACT*/
 
-#neon-div {
-  height: 250px;
-  background-image: url('css/images/neon.jpg');
-  background-size: cover;
-  background-attachment: fixed;
+div.try {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45vh;
 }
 
+
+div.try p {
+  color: black;
+  font-size: 20px;
+  font-weight: 200;
+  border: 2px solid black;
+  padding: 20px 30px;
+}
 
 /*CONTACT DESIGN*/
 
@@ -227,6 +253,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 #contact span {
   font-size: 50px;
@@ -287,7 +314,7 @@ background-image: linear-gradient(120deg, aquamarine 100%, #fff 0%);
 }
 .copyright p{
   color:black;
-  font-size:15px;
+  font-size:10px;
   font-weight: lighter;
   opacity: 0.7;
   margin:0;

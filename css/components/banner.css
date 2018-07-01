@@ -1,5 +1,5 @@
 .wrapper-main {
-  background-image: url('../images/water.jpg');
+  background-image: url('../images/lamp.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment:fixed;
@@ -49,7 +49,7 @@
   line-height: 20px;
 }
 
-.wrapper-main p {
+.p-main a {
   background: white;
   padding: 20px 10px;
 }
@@ -66,6 +66,9 @@
   box-shadow: 0px 0px 15px 1px darkslategrey;
 }
 
+.language li {
+  padding: 15px 15px;
+}
 .language li a {
   color: black;
   font-size: 15px;
@@ -75,10 +78,10 @@
 }
 
 .l-active {
-  background-color: rgba(191,151,157,0.6);
+  background-color: #b0b3cc;
+  /*background-color: rgba(191,151,157,0.6);*/
   color:white;
 }
-
 
 @media(max-width: 992px) {
   .wrapper-main {
