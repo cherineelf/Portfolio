@@ -101,6 +101,8 @@ section {
   margin-right: auto;
   margin-left: auto;
 
+  background-image: -webkit-linear-gradient(30deg, #A1DADD 100%, #fff 0%);
+  background-image: -o-linear-gradient(30deg, #A1DADD 100%, #fff 0%);
   background-image: linear-gradient(120deg, #A1DADD 100%, #fff 0%);
   background-repeat: no-repeat;
   background-size: 39% 32px;
@@ -109,7 +111,7 @@ section {
 
 
 #about p {
-  font-size: 32px;
+  font-size: 26px;
   padding: 0 50px;
   line-height: 40px;
   font-weight: lighter;
@@ -138,6 +140,15 @@ section {
   #about p {
     font-size: 37px;
   }
+  #about h2 {
+    width: 60%;
+    background-image: -webkit-linear-gradient(30deg, #A1DADD 100%, #fff 0%);
+    background-image: -o-linear-gradient(30deg, #A1DADD 100%, #fff 0%);
+    background-image: linear-gradient(120deg, #A1DADD 100%, #fff 0%);
+    background-repeat: no-repeat;
+    background-size: 34% 32px;
+    background-position: 285px 0%;
+  }
 }
 
 @media(max-width: 760px) {
@@ -149,11 +160,19 @@ section {
   #about img {
     margin-bottom: 20px;
   }
-    #about p {
+  #about p {
     font-size: 30px;
     padding: 0 10px;
   }
-
+  #about h2 {
+    width: 60%;
+    background-image: -webkit-linear-gradient(30deg, #A1DADD 100%, #fff 0%);
+    background-image: -o-linear-gradient(30deg, #A1DADD 100%, #fff 0%);
+    background-image: linear-gradient(120deg, #A1DADD 100%, #fff 0%);
+    background-repeat: no-repeat;
+    background-size: 52% 32px;
+    background-position: 155px 0%;
+  }
 }
 
 @media(max-width: 480px) {
@@ -162,12 +181,21 @@ section {
     align-items: center;
     flex-direction: column;
   }
-    #about img {
+  #about img {
     margin-bottom: 20px;
   }
-    #about p {
+  #about p {
     font-size: 27px;
     padding: 0;
+  }
+  #about h2 {
+    width: 60%;
+    background-image: -webkit-linear-gradient(30deg, #A1DADD 100%, #fff 0%);
+    background-image: -o-linear-gradient(30deg, #A1DADD 100%, #fff 0%);
+    background-image: linear-gradient(120deg, #A1DADD 100%, #fff 0%);
+    background-repeat: no-repeat;
+    background-size: 50% 32px;
+    background-position: 120px 0%;
   }
 }
 
@@ -180,6 +208,19 @@ section {
 }
 .service-content {
   padding:10px 58px;
+}
+
+#service h2 {
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+
+  background-image: -webkit-linear-gradient(120deg, #009DAB 100%, #fff 0%);
+  background-image: -o-linear-gradient(120deg, #009DAB 100%, #fff 0%);
+  background-image: linear-gradient(120deg, #009DAB 100%, #fff 0%);
+  background-repeat: no-repeat;
+  background-size: 29% 35px;
+  background-position: 72% 32px;
 }
 
 .service-content i {
@@ -203,6 +244,15 @@ section {
   .service-content {
     padding:20px 33px;
   }
+  #service h2 {
+    width: 60%;
+  background-image: -webkit-linear-gradient(120deg, #009DAB 100%, #fff 0%);
+  background-image: -o-linear-gradient(120deg, #009DAB 100%, #fff 0%);
+  background-image: linear-gradient(120deg, #009DAB 100%, #fff 0%);
+    background-repeat: no-repeat;
+    background-size: 34% 32px;
+    background-position: 285px 100%;
+  }
 }
 
 @media(max-width: 760px) {
@@ -215,6 +265,15 @@ section {
   .service-content {
     padding:20px 58px;
   }
+  #service h2 {
+    width: 60%;
+  background-image: -webkit-linear-gradient(120deg, #009DAB 100%, #fff 0%);
+  background-image: -o-linear-gradient(120deg, #009DAB 100%, #fff 0%);
+  background-image: linear-gradient(120deg, #009DAB 100%, #fff 0%);
+    background-repeat: no-repeat;
+    background-size: 34% 32px;
+    background-position: 250px 100%;
+  }
 }
 
 @media(max-width: 480px) {
@@ -226,6 +285,15 @@ section {
   }
   .service-content {
     padding:20px 58px;
+  }
+  #service h2 {
+    width: 75%;
+  background-image: -webkit-linear-gradient(120deg, #009DAB 100%, #fff 0%);
+  background-image: -o-linear-gradient(120deg, #009DAB 100%, #fff 0%);
+  background-image: linear-gradient(120deg, #009DAB 100%, #fff 0%);
+    background-repeat: no-repeat;
+    background-size: 52% 32px;
+    background-position: 150px 100%;
   }
 }
 
@@ -259,6 +327,13 @@ div.try p {
   font-size: 50px;
   font-variant: small-caps;
   letter-spacing: 7px;
+
+  background-image: -webkit-linear-gradient(30deg, #FF6967 100%, #fff 0%);
+  background-image: -o-linear-gradient(30deg, #FF6967 100%, #fff 0%);
+  background-image: linear-gradient(120deg, #FF6967 100%, #fff 0%);
+  background-repeat: no-repeat;
+  background-size: 77% 34px;
+  background-position: 12% 32px;
 }
 .image-contact {
   transform: rotate(270deg);
