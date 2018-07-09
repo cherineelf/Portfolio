@@ -63,7 +63,7 @@
 
 .btn:hover {
   background:white;
-  box-shadow: 0px 0px 15px 1px darkslategrey;
+  box-shadow: 0 0 15px 0 white;
 }
 
 .language li {
@@ -78,10 +78,14 @@
 }
 
 .l-active {
-  background-color: #b0b3cc;
-  /*background-color: rgba(191,151,157,0.6);*/
-  color:white;
+  background-color: #f8f2f4;
 }
+
+.l-active2 {
+  color: white;
+  transition: 0.70s;
+}
+
 
 @media(max-width: 992px) {
   .wrapper-main {

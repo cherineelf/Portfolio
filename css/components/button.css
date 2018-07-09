@@ -1,0 +1,82 @@
+/* Buttons design */
+
+.btn-medium {
+  background: black;
+  color: white;
+  border: 1px solid #999999;
+  padding: 10px 60px;
+  border-radius: 50px;
+  font-weight: lighter;
+  transition: 0.8s;
+
+}
+.btn-medium:hover {
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 0 15px 1px grey;
+  transform: scale(1.1);
+}
+
+/*1er essai */
+.service-try {
+  height: 45vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  background: linear-gradient(to top, lavender 50%, transparent 50%);
+}
+
+.service1,
+.service2,
+.service3 {
+  background: background: rgba(255,240,245,0.7);
+  padding: 40px;
+  width: 33%;
+}
+
+
+/*2e essai*/
+#servicetry img {
+  width: 90%;
+  height: 20%;
+}
+
+#servicetry {
+  padding: 0;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#servicetry div.overlay {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+
+#servicetry p {
+  padding: 50px;
+  position: sticky;
+  position: -webkit-sticky;
+  top:45vh;
+
+  background-color: rgba(233,226,226,0.7);
+  padding: 10px 50px;
+}
+
+
+
+
+
