@@ -89,7 +89,7 @@
   text-transform: uppercase;
 }
 .card-description p {
-  padding: 0 50px;
+  padding: 10px 0px;
   font-size: 13px;
   font-weight: 500;
 }
