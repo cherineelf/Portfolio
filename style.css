@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Cookie');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
 
 /* --- COMPONENTS DESIGN --- */
 @import url('css/components/button.css');
@@ -14,7 +16,7 @@ div.fade-bg {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #ededed;
+  background: rgba(127,52,51,0.3);
   z-index: -1;
   opacity: 0;
 }
@@ -99,6 +101,7 @@ section {
   width: 40%;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom:0;
 
   background-image: -webkit-linear-gradient(30deg, #A1DADD 100%, #fff 0%);
   background-image: -o-linear-gradient(30deg, #A1DADD 100%, #fff 0%);
@@ -110,9 +113,10 @@ section {
 
 
 #about p {
-  font-size: 26px;
+font-family: 'Lato', sans-serif;
+  font-size: 25px;
   padding: 0 50px;
-  line-height: 40px;
+  line-height: 35px;
   font-weight: lighter;
 }
 #about span {
@@ -210,6 +214,7 @@ section {
 }
 
 #service h2 {
+  margin-top: 20px;
   width: 40%;
   margin-right: auto;
   margin-left: auto;
@@ -297,7 +302,7 @@ section {
 
 /*DIV IMAGE BEFORE CONTACT*/
 
-div.try {
+div.contact-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -305,7 +310,7 @@ div.try {
 }
 
 
-div.try p {
+div.contact-btn p {
   color: black;
   font-size: 20px;
   font-weight: 200;
@@ -327,9 +332,9 @@ div.try p {
   font-variant: small-caps;
   letter-spacing: 7px;
 
-  background-image: -webkit-linear-gradient(30deg, #FF6967 100%, #fff 0%);
-  background-image: -o-linear-gradient(30deg, #FF6967 100%, #fff 0%);
-  background-image: linear-gradient(120deg, #FF6967 100%, #fff 0%);
+  background-image: -webkit-linear-gradient(30deg, white 100%, #fff 0%);
+  background-image: -o-linear-gradient(30deg, white 100%, #fff 0%);
+  background-image: linear-gradient(120deg, white 100%, #fff 0%);
   background-repeat: no-repeat;
   background-size: 77% 34px;
   background-position: 12% 32px;
@@ -365,12 +370,12 @@ div.try p {
 }
 
 .contact-icon a {
-  color:dimgray;
+  color:black;
   transition: 0.35s;
 }
 
 .contact-icon a:hover {
-  color:rgb(42,42,42);
+  opacity: 0.5;
 }
 
 #contact .image-contact {
