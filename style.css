@@ -490,6 +490,9 @@ div.contact-btn p {
 
 
 
+.wrapper-service {
+  margin-top:50px;
+}
 
 .wrapper-service .container {
   display: flex;
@@ -505,9 +508,10 @@ div.contact-btn p {
 }
 
 .wrapper-service .un p {
-  width: 75%;
+  width: 85%;
   padding: 5px 50px;
   font-weight: lighter;
+  line-height: 2;
 
   position: sticky;
   position: -webkit-sticky;
@@ -518,9 +522,6 @@ div.contact-btn p {
   text-align: -webkit-right;
 }
 
-.un img {
-  width: 95%;
-}
 
 .wrapper-service div.overlay {
   position: absolute;
@@ -533,10 +534,38 @@ div.contact-btn p {
 
 
 .dash {
-      height: 1px;
-    width: 14px;
-    background-color: #141414;
-    display: inline-block;
-    margin: 5px;
+  height: 1px;
+  width: 14px;
+  background-color: #141414;
+  display: inline-block;
+  margin: 5px;
 }
+
+@media(max-width: 760px) {
+  .un {
+    width: 100%;
+  }
+  .wrapper-service .un p {
+    width: 100%;
+    text-align: start;
+    padding: 5px 25px 30px 25px;
+    font-weight: lighter;
+  }
+}
+
+@media(max-width: 480px) {
+  .wrapper-service .container {
+    display: block;
+    }
+  .un {
+    width: 100%;
+  }
+  .wrapper-service .un p {
+    width: 100%;
+    text-align: start;
+    padding: 5px 25px 30px 25px;
+    font-weight: lighter;
+  }
+}
+
 
