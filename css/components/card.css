@@ -166,4 +166,7 @@
     background-size: 45% 50px;
     background-position: 45% 17px;
   }
+  #work .workh2fr {
+    margin-left: 15%;
+  }
 }
