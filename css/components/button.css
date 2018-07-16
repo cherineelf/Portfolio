@@ -1,0 +1,25 @@
+
+/* Buttons design */
+
+.btn-medium {
+  background: black;
+  color: white;
+  border: 1px solid #999999;
+  padding: 10px 60px;
+  border-radius: 50px;
+  font-weight: lighter;
+  transition: 0.8s;
+
+}
+.btn-medium:hover {
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 0 15px 1px grey;
+  transform: scale(1.1);
+}
+
+
+
+
+
+

@@ -8,68 +8,84 @@
   <!-- Google result description-->
   <meta name="description" content="Cherine Elfadel, développeur web junior / front-end - Freelance basée à Marseille. Réalisation de vos sites web sur mesure et responsive.">
   <meta name="keywords" content="developpeur, frontend, web, freelance, marseille, cherine elfadel">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav class="navbar navbar-fixed-top">
-  <div>
-    <a href="#main-page" class="navbar-cherine-brand scroll">
-      <span class="logo">C.Elfadel</span>
-    </a>
-  </div>
-
-  <div>
-    <input type="checkbox" id="burger" class="burger">
-    <label for="burger" class="hamburger">
-      <span></span>
-    </label>
-    <div class="nav-right">
-      <a href="#about" class="nav-items scroll">About</a>
-      <a href="#work" class="nav-items scroll">Work</a>
-      <a href="#service" class="nav-items scroll">Service</a>
-      <a href="#contact" class="nav-items scroll">contact</a>
+<nav class="navbar navbar-light navbar-expand-lg fixed-top">
+    <a href="#" class="navbar-brand">cherine elfadel</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse mx-auto text-center" style="width: 200px;" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="navbar-item">
+                <a href="#about" class="nav-link scroll">About</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#work" class="nav-link scroll">Work</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#service" class="nav-link scroll">Services</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#contact" class="nav-link scroll">Contact</a>
+            </li>
+        </ul>
     </div>
-  </div>
 </nav>
 
 <!-- main-page -->
-<div id="main-page" class="banner">
-<div class="container">
-  <div class="content wrapper-content border-2">
-    <h1>Cherine Elfadel</h1>
-    <p>Front-End Developer</p>
-    <a href="index2.html"><button>FR</button></a>
+<div class="wrapper-main" ">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 offset-sm-2 text-right">
+        <h1>Creating simple and modern design for aesthetic solutions</h1>
+      </div>
+      <div class="col-12 col-sm-4 text-center">
+        <div class="p-main">
+          <a href="#about" class="btn btn-light scroll">Front End Developer</a>
+        </div>
+        <div class="language">
+          <ul>
+            <li><a href="index.html">EN</a></li>
+            <li>|</li>
+            <li><a href="index2.html">FR</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
 </div>
 <!-- main-page END -->
 
 <!-- about -->
-<div id="about" class="text-center">
-  <h3>about</h3>
+<section id="about" class="text-center">
+  <h2>about</h2>
   <div class="container">
-    <p>I work with <span>HTML5/CSS3</span>, <span>Bootstrap</span>, <span>JavaScript(jQuery)</span> and <span>Responsive Design</span>. Knowledge of <span>Ruby On Rails</span>, <span>Wordpress</span>.</p>
+    <p>Front end developer junior focused on providing design solutions to small businesses, artists, and creative entrepreneurs.</p>
+    <p>I enjoy learning new things (Webdesign&coding) and challenge myself. I design and develop experiences to make people's live simple.</p>
     <br>
-    <p>I enjoy learning new things (design&coding) and challenge myself. I design and develop experiences to make people's live simple.</p>
+
+    <p>Always ready to improve my skills, I work with <span>HTML5/CSS3</span>, <span>Bootstrap</span>, <span>jQuery</span> and <span>Responsive Design</span>. Knowledge of <span>Ruby On Rails</span>, <span>Wordpress</span>.</p>
     <br>
-    <p>Le Wagon Alumni</p>
+    <p>— Le Wagon Alumni — </p>
   </div>
-</div>
+</section>
 <!-- about END -->
 
 <!-- work -->
-<div id="work">
-<h3>work</h3>
+<div id="work" class="text-center">
+<h2>work</h2>
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-6">
         <div class="card" style="background-image: url('css/images/asanasano-capture.png');" onclick="">
           <div class="card-category"></div>
           <div class="card-description">
-            <h2>Asanasano</h2>
+            <h3>Asanasano</h3>
             <p>Le Wagon - A 10-day team project <br> Worked on the first version / Front-End part</p>
             <a href="https://www.asanasano.com" target="_blank" class="underline" >Have a look</a>
           </div>
@@ -79,41 +95,50 @@
         <div class="card" style="background-image: url('css/images/hm.png');" onclick="">
           <div class="card-category"></div>
           <div class="card-description">
-            <h2>Healthy Mars</h2>
-            <p>Personal project - In progress</p>
+            <h3>Healthy Mars</h3>
+            <p>Side project - In progress</p>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
 <!-- work END -->
 
-<!-- service -->
-<div id="service">
-<h3>service</h3>
-<div class="container">
-  <div class="service-content">
-    <h4>Clean code <i class="fa fa-code"></i></h4>
-    <p>Websites are written in valid and clean HTML5/CSS3 & JavaScript (jQuery)</p>
-  </div>
-  <div class="service-content">
 
-    <h4>Design <i class="fa fa-star"></i></h4>
-    <p>Websites are tailored to suit your needs and requirements</p>
-  </div>
-  <div class="service-content">
-    <h4>Responsive <i class="fa fa-mobile"></i></h4>
-    <p>Websites are responsive. They will look great on desktop, tablet and mobile</p>
+<div id="service" class="wrapper-service">
+<h2 class="text-center">services</h2>
+  <div class="container">
+    <div class="un">
+      <p>Fond of the creative and digital word, I also have a background in languages, communication, management and sustainability<span class="dash"></span></p>
+    </div>
+    <div class="deux">
+      <ul>
+        <li>Front-end development</li>
+        <li>HTML5 - CSS3 - jQuery</li>
+        <li>Responsive websites</li>
+        <li>Website design</li>
+        <li>Communication medium</li>
+        <li>Content creation</li>
+        <li>SEO & Hosting</li>
+      </ul>
+    </div>
   </div>
 </div>
 
-</div>
+
+<div class="fade-bg"></div>
+
+
+
 <!-- service END -->
-<div id="neon-div">
-  <p>yo</p>
+<div class="contact-btn">
+  <a href="mailto:cherine.elfadel@gmail.com" class="btn-medium btn-lg">Let's talk</a>
 </div>
-<div class="clear"></div>
+
+
+
 <!-- contact -->
 <div id="contact">
   <div class="container">
@@ -135,6 +160,7 @@
     </div>
   </div>
 </div>
+
 <!-- contact END -->
 
 <div class="icon-up">
@@ -142,10 +168,12 @@
 </div>
 
 <div class="copyright text-center">
-  <p>© 2018 Cherine Elfadel. All rights reserved.</p>
+  <p>© 2018 Cherine Elfadel.</p>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="rellax.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
